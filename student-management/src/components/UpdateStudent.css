@@ -1,0 +1,11 @@
+#container {
+    justify-content: center;
+}
+  
+#formfill {
+    width: 30rem;
+}
+#formfill submit{
+  margin-bottom: 2rem;
+}
+  

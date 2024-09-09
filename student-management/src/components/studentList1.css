@@ -1,0 +1,55 @@
+.student-list-container{
+  width: 80rem;
+}
+.add-student-button {
+    display: inline-block;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .add-student-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .student-list-table {
+    width: 80rem;
+    border-collapse: collapse;
+  }
+  .student-list-table th, .student-list-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .student-list-table th {
+    background-color: #0056b3;
+    color: white;
+  }
+  
+  .edit-button, .delete-button {
+    margin-top: 2px;
+    padding: 0.6rem;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .edit-button {
+    background-color: #28a745;
+  }
+  
+  .edit-button:hover {
+    background-color: #218838;
+  }
+  
+  .delete-button {
+    background-color: #dc3545;
+  }
+  
+  .delete-button:hover {
+    background-color: #c82333;
+  }
+  
