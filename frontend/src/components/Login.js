@@ -42,35 +42,6 @@ const LoginForm = () => {
             setError('Invalid contact number or password');
         }
     };
-        // try {
-        //     const response = await axios({
-        //         method: 'post',
-        //         url: 'http://localhost:8443/students/login', 
-        //         data: {
-        //             contactNumber: contactNumber,
-        //             password: password
-        //         },
-        //         headers: {
-        //             'Content-Type': 'application/json'
-        //         }
-        //     });
-
-            // const token = response.data.token; 
-            // if (token) {
-            //     localStorage.setItem('token', token);
-
-            //     console.log('Token received and stored:', token);
-            //     navigate('/students');
-            // } else {
-            //     setError('Token not found');
-            // }
-
-    //     } catch (error) {
-    //         console.error('Login failed:', error);
-    //         setError('Invalid contact number or password');
-    //     }
-    // };
-
     return (
         <div>
             <h2>Login</h2>

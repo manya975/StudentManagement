@@ -1,5 +1,5 @@
 const handleDelete = (id) => {
-    axios.delete(`http://localhost:8443/students/${id}`, {
+    axios.delete("http://localhost:8443/students/"+id, {
       headers: {
         'Authorization': `Bearer ${localStorage.getItem('token')}`
       }

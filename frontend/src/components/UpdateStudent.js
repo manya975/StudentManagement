@@ -14,8 +14,6 @@ const UpdateStudent = ({ onClose }) => {
   });
 
   const navigate = useNavigate(); 
-
-  // Fetch student data based on the id from the URL
   useEffect(() => {
     axios.get(`http://localhost:8443/students/${id}`, {
       headers: {
@@ -103,7 +101,6 @@ const UpdateStudent = ({ onClose }) => {
           <input 
             type="password" 
             name="password" 
-            autoComplete="new-password"
             value={updatedStudent.password} 
             onChange={handleChange} 
           />

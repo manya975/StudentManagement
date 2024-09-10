@@ -52,7 +52,7 @@ const StudentList = () => {
               <td>{student.address}</td>
               <td>{student.pincode}</td>
               <td>
-                <button class="edit-button"><Link to={`/students/edit/${student.id}`} className="edit-button">Edit</Link></button>
+                <button class="edit-button"><Link to={"/students/edit/" + student.id} className="edit-button">Edit</Link></button>
                 <button onClick={() => handleDelete(student.id)} className="delete-button">Delete</button>
               </td>
             </tr>

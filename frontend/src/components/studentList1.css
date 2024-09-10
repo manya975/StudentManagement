@@ -1,5 +1,6 @@
 .student-list-container{
   width: 80rem;
+  height: 100vh;
 }
 .add-student-button {
     display: inline-block;

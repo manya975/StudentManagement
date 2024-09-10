@@ -37,7 +37,7 @@ const AddStudent = () => {
   return (
     <div id="container">
       <h2>Add Student</h2>
-      <form id="formfill" autocomplete="off" onSubmit={handleSubmit}>
+      <form id="formfill" autoComplete="off" onSubmit={handleSubmit}>
         <label>
           Name:
           <input 
@@ -83,7 +83,6 @@ const AddStudent = () => {
           <input 
             type="password" 
             name="password" 
-            value={student.password} 
             onChange={handleChange} 
             required 
           />
